@@ -16,7 +16,7 @@ def load_data():
 
 day_df, hour_df = load_data()
 
-img_path = "../assets/dicoding.png"
+img_path = "assets/dicoding.png"
 st.sidebar.image(img_path, width=150)
 st.sidebar.markdown("<br>", unsafe_allow_html=True)
 
